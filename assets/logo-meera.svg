@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="109" height="45" viewBox="0 0 109 45" fill="none">
+  <rect x="0" y="8" width="36" height="28" rx="4" fill="#2B3990"/>
+  <path d="M8 30V14l6 10 6-10v16" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <text x="44" y="30" font-family="Urbanist, system-ui, sans-serif" font-size="18" font-weight="700" fill="#262A2E">Meera</text>
+</svg>

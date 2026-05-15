@@ -1,0 +1,901 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meera Industries — Premium HDPE Pipes &amp; Coils</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Urbanist:wght@500;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header class="fl-nav">
+        <div class="fl-nav__inner">
+            <a href="#" class="fl-nav__logo" aria-label="Meera Industries home">
+                <img src="assets/logo-4ac279.png" width="109" height="45" alt="Meera Industries" />
+            </a>
+            <nav class="fl-nav__links" aria-label="Primary">
+                <div class="fl-nav__group">
+                    <a class="fl-nav__link" href="#">About Us</a>
+                    <a class="fl-nav__link fl-nav__link--chevron" href="#">
+                        Products
+                        <svg class="fl-icon-caret" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                            <path d="M6 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                </div>
+                <a class="fl-btn fl-btn--primary fl-btn--nav" href="#">Contact Us</a>
+            </nav>
+            <button type="button" class="fl-nav__mobile-toggle" id="navToggle" aria-label="Open menu">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <div class="fl-nav__drawer" id="navDrawer" aria-hidden="true">
+        <div class="fl-nav__drawer-panel">
+            <button type="button" id="navClose" class="fl-nav__drawer-close">✕</button>
+            <a href="#">About Us</a>
+            <a href="#">Products</a>
+            <a class="fl-btn fl-btn--primary fl-btn--nav" style="justify-content: center" href="#">Contact Us</a>
+        </div>
+    </div>
+
+    <style>
+        .fl-section.fl-breadcrumb-section {
+             padding: 40px 120px;
+        }
+        @media (max-width: 768px) {
+            .fl-section.fl-breadcrumb-section {
+                padding: 40px 20px;
+            }
+        }
+    </style>
+    <div class="fl-page">
+        <section class="fl-section fl-breadcrumb-section">
+            <div class="fl-hero__breadcrumb">
+                <span>Products</span>
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+                    <path d="M4.5 2l3 4-3 4" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" />
+                </svg>
+                <strong>HDPE Pipes &amp; Coils</strong>
+            </div>
+        </section>
+        <section class="fl-hero fl-section fl-hero--fold">
+            <div class="fl-noise fl-noise--section" aria-hidden="true"></div>
+            <div class="fl-hero__glow" aria-hidden="true"></div>
+
+            <div class="fl-hero__grid">
+                <div class="fl-hero__visual-col">
+                    <div class="fl-hero__photo-wrap">
+                        <button type="button" class="fl-hero__arrow fl-hero__arrow--prev"
+                            aria-label="Previous product image">
+                            <img src="assets/icons/left-arrow.png" alt="Previous image" width="22" height="22" />
+                        </button>
+                        <div class="fl-hero__photo-stage" aria-live="polite">
+                            <div class="fl-hero__photo-track">
+                                <img class="fl-hero__photo" src="assets/industry-bg.png" alt="HDPE pipes manufacturing">
+                                <img class="fl-hero__photo" src="assets/portfolio-1-428ecc.png" alt="HDPE pipe coils">
+                                <img class="fl-hero__photo" src="assets/hero-pipes.jpg" alt="Stacked HDPE pipes">
+                                <img class="fl-hero__photo" src="assets/portfolio-1-428ecc.png"
+                                    alt="Industrial HDPE pipe application">
+                                <img class="fl-hero__photo" src="assets/portfolio-2-ed613b.png" alt="HDPE pipe detail">
+                                <img class="fl-hero__photo" src="assets/hero-pipes.jpg" alt="Installed HDPE piping">
+                            </div>
+                        </div>
+                        <div class="fl-hero__zoom-lens" aria-hidden="true">
+                            <img src="assets/icons/lens.png" alt="" width="35" height="35">
+                        </div>
+                        <div class="fl-hero__zoom-preview" aria-hidden="true"></div>
+                        <button type="button" class="fl-hero__arrow fl-hero__arrow--next"
+                            aria-label="Next product image">
+                            <img src="assets/icons/right-arrow.png" alt="Next image" width="22" height="22" />
+                        </button>
+                    </div>
+                    <div class="fl-hero__thumbs" aria-label="Product image thumbnails">
+                        <button type="button" class="fl-hero__thumb is-active" data-src="assets/industry-bg.png"
+                            data-alt="HDPE pipes manufacturing" aria-label="Show HDPE pipes manufacturing image">
+                            <img src="assets/industry-bg.png" alt="" />
+                        </button>
+                        <button type="button" class="fl-hero__thumb" data-src="assets/portfolio-1-428ecc.png"
+                            data-alt="HDPE pipe coils" aria-label="Show HDPE pipe coils image">
+                            <img src="assets/portfolio-1-428ecc.png" alt="" />
+                        </button>
+                        <button type="button" class="fl-hero__thumb" data-src="assets/hero-pipes.jpg"
+                            data-alt="Stacked HDPE pipes" aria-label="Show stacked HDPE pipes image">
+                            <img src="assets/hero-pipes.jpg" alt="" />
+                        </button>
+                        <button type="button" class="fl-hero__thumb" data-src="assets/portfolio-1-428ecc.png"
+                            data-alt="Industrial HDPE pipe application"
+                            aria-label="Show industrial HDPE pipe application image">
+                            <img src="assets/portfolio-1-428ecc.png" alt="" />
+                        </button>
+                        <button type="button" class="fl-hero__thumb" data-src="assets/portfolio-2-ed613b.png"
+                            data-alt="HDPE pipe detail" aria-label="Show HDPE pipe detail image">
+                            <img src="assets/portfolio-2-ed613b.png" alt="" />
+                        </button>
+                        <button type="button" class="fl-hero__thumb" data-src="assets/hero-pipes.jpg"
+                            data-alt="Installed HDPE piping" aria-label="Show installed HDPE piping image">
+                            <img src="assets/hero-pipes.jpg" alt="" />
+                        </button>
+                    </div>
+                </div>
+                <div class="fl-hero__content-col">
+                    <div class="fl-hero__copy-group">
+                        <div class="fl-hero__badges-row">
+                            <div class="fl-cert-pill">
+                                <img src="assets/logo/bis-logo.svg" width="26" height="20" alt="" />
+                                <span>BIS Certified</span>
+                            </div>
+                            <div class="fl-cert-pill">
+                                <img src="assets/logo/isi-logo.svg" width="26" height="20" alt="" />
+                                <span>ISO Certified</span>
+                            </div>
+                            <div class="fl-cert-pill">
+                                <img src="assets/logo/ce-logo.svg" width="26" height="20" alt="" />
+                                <span>CE Certified</span>
+                            </div>
+                        </div>
+                        <h1 class="fl-hero__title">Premium HDPE Pipes &amp; Coils for Modern Infrastructure</h1>
+                        <div class="fl-hero__checks">
+                            <div class="fl-check-row">
+                                <img src="assets/icons/check-circle.png" alt="" width="18" height="18">
+                                <span>Leak-Proof Fusion Joints</span>
+                            </div>
+                            <div class="fl-check-row">
+                                <img src="assets/icons/check-circle.png" alt="" width="18" height="18">
+                                <span>Chemical Resistance</span>
+                            </div>
+                            <div class="fl-check-row">
+                                <img src="assets/icons/check-circle.png" alt="" width="18" height="18">
+                                <span>50+ Year Service Life</span>
+                            </div>
+                            <div class="fl-check-row">
+                                <img src="assets/icons/check-circle.png" alt="" width="18" height="18">
+                                <span>Flexible Installation</span>
+                            </div>
+                            <div class="fl-check-row">
+                                <img src="assets/icons/check-circle.png" alt="" width="18" height="18">
+                                <span>Flexible Installation</span>
+                            </div>
+                            <div class="fl-check-row">
+                                <img src="assets/icons/check-circle.png" alt="" width="18" height="18">
+                                <span>UV &amp; Weather Resistance</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fl-price-card">
+                        <div>
+                            <div class="fl-price-card__label">Price Range</div>
+                            <div class="fl-price-card__value">₹4,80,000 - 7,90,000</div>
+                        </div>
+                        <div class="fl-badge-row">
+                            <span class="fl-badge fl-badge--yellow">Shipping: 6-12 days</span>
+                            <span class="fl-badge fl-badge--yellow">Returns: If returned within 7 days</span>
+                        </div>
+                    </div>
+                    <div class="fl-hero__actions">
+                        <a class="fl-btn fl-btn--primary fl-btn--lg" href="#" data-modal-target="callbackModal">Get
+                            Custom Quote</a>
+                        <a class="fl-btn fl-btn--ghost fl-btn--lg" href="#specs">
+                            View Technical Specs
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                                <path d="M6 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="fl-logos" aria-label="Trusted companies">
+                <p class="fl-logos__label">Trusted by Hundreds of Companies Globally</p>
+                <div class="fl-logos__row">
+                    <img src="assets/partner-logo-1959c9.png" width="122" height="32" alt="" />
+                    <img src="assets/partner-logo-1959c9.png" width="122" height="32" alt="" />
+                    <img src="assets/partner-logo-1959c9.png" width="122" height="32" alt="" />
+                    <img src="assets/partner-logo-1959c9.png" width="122" height="32" alt="" />
+                    <img src="assets/partner-logo-1959c9.png" width="122" height="32" alt="" />
+                    <img src="assets/partner-logo-1959c9.png" width="122" height="32" alt="" />
+                </div>
+            </div>
+        </section>
+
+        <section class="fl-specs fl-section" id="specs">
+            <div class="fl-noise fl-noise--section" aria-hidden="true"></div>
+            <div class="fl-specs__inner">
+                <header class="fl-specs__head">
+                    <h2 class="fl-specs__title">
+                        <span class="fl-specs__title-rest">Technical Specifications at a Glance</span>
+                    </h2>
+                    <p class="fl-specs__sub">
+                        Comprehensive performance data demonstrating our commitment to quality and engineering
+                        excellence.
+                    </p>
+                </header>
+                <div class="fl-table-wrap">
+                    <div class="fl-table-col">
+                        <div class="fl-table-row fl-table-row--head">PARAMETER</div>
+                        <div class="fl-table-row fl-table-row--param">Pipe Diameter Range</div>
+                        <div class="fl-table-row fl-table-row--param">Pressure Ratings</div>
+                        <div class="fl-table-row fl-table-row--param">Standard Dimension Ratio</div>
+                        <div class="fl-table-row fl-table-row--param">Operating Temperature</div>
+                        <div class="fl-table-row fl-table-row--param">Service Life</div>
+                        <div class="fl-table-row fl-table-row--param">Material Density</div>
+                        <div class="fl-table-row fl-table-row--param">Certification Standards</div>
+                        <div class="fl-table-row fl-table-row--param">Joint Type</div>
+                        <div class="fl-table-row fl-table-row--param">Coil Lengths</div>
+                        <div class="fl-table-row fl-table-row--param">Country of Origin</div>
+                    </div>
+                    <div class="fl-table-col">
+                        <div class="fl-table-row fl-table-row--head">SPECIFICATION</div>
+                        <div class="fl-table-row">20mm to 1600mm (3/4” to 63”)</div>
+                        <div class="fl-table-row">PN 2.5, PN 4, PN 6, PN 8, PN 10, PN 12.5, PN 16</div>
+                        <div class="fl-table-row">SDR 33, SDR 26, SDR 21, SDR 17, SDR 13.6, SDR 11</div>
+                        <div class="fl-table-row">-40C to +80C (-40F to +176F)</div>
+                        <div class="fl-table-row">50+ Years (at 20 degrees C, PN 10)</div>
+                        <div class="fl-table-row">0.95 - 0.96 g/cm3</div>
+                        <div class="fl-table-row">IS 5984, ISO 4427, ASTM D3035</div>
+                        <div class="fl-table-row">Butt Fusion, Electrofusion, Mechanical</div>
+                        <div class="fl-table-row">Up to 500mm (for smaller diameters)</div>
+                        <div class="fl-table-row">
+                            <img src="assets/icons/india.png" alt="India" width="18" height="18">&nbsp;India
+                        </div>
+                    </div>
+                </div>
+                <center><a class="fl-btn fl-btn--on-dark fl-btn--lg fl-btn--ghost-dark fl-specs__dl-btn" href="#"
+                        data-modal-target="catalogueModal">
+                        <img src="assets/icons/bg-download.png" alt="" width="18" height="18">
+                        Download Full Technical Datasheet
+                    </a></center>
+            </div>
+        </section>
+
+        <section class="fl-features fl-section">
+            <div class="fl-noise fl-noise--section" aria-hidden="true"></div>
+            <div class="fl-features__inner">
+                <div class="fl-features__intro">
+                    <h2 class="fl-features__title">Built to Last. Engineered to Perform.</h2>
+                    <p class="fl-features__sub">
+                        Engineered for water, gas, and industrial networks — Meera HDPE systems combine long service
+                        life, fusion
+                        integrity, and certified quality for infrastructure you can trust.
+                    </p>
+                </div>
+                <div class="fl-card-grid">
+                    <article class="fl-card">
+                        <img src="assets/icons/bag.png" alt="" width="30" height="30">
+                        <h3 class="fl-card__title">Superior Chemical Resistance</h3>
+                        <p class="fl-card__body">
+                            Non-reactive polymer construction stands up to aggressive soils and process fluids without
+                            rust or
+                            galvanic corrosion — ideal for potable water, effluent, and chemical transfer lines.
+                        </p>
+                    </article>
+                    <article class="fl-card">
+                        <img src="assets/icons/needle.png" alt="" width="30" height="30">
+                        <h3 class="fl-card__title">Exceptional Flexibility &amp; Durability</h3>
+                        <p class="fl-card__body">
+                            High toughness and strain capacity reduce surge risk and accommodate ground movement,
+                            seismic zones, and
+                            trenchless installs without sacrificing pressure integrity.
+                        </p>
+                    </article>
+                    <article class="fl-card">
+                        <img src="assets/icons/box.png" alt="" width="30" height="30">
+                        <h3 class="fl-card__title">Leak-Proof Fusion Welding</h3>
+                        <p class="fl-card__body">
+                            Butt and electrofusion joints create homogeneous, leak-free connections with traceable
+                            parameters — fewer
+                            mechanical couplings and lower lifetime maintenance.
+                        </p>
+                    </article>
+                    <article class="fl-card">
+                        <img src="assets/icons/setting.png" alt="" width="30" height="30">
+                        <h3 class="fl-card__title">Cost-Effective Long-Term Solution</h3>
+                        <p class="fl-card__body">
+                            Lower installation weights, minimal cathodic protection, and 50+ year design life translate
+                            to reduced
+                            capex and predictable opex across large distribution networks.
+                        </p>
+                    </article>
+                    <article class="fl-card">
+                        <img src="assets/icons/setting.png" alt="" width="30" height="30">
+                        <h3 class="fl-card__title">Environmentally Sustainable</h3>
+                        <p class="fl-card__body">
+                            Recyclable material, fusion instead of solvents, and tight leakage performance support
+                            sustainability
+                            targets for municipal and industrial owners.
+                        </p>
+                    </article>
+                    <article class="fl-card">
+                        <img src="assets/icons/setting.png" alt="" width="30" height="30">
+                        <h3 class="fl-card__title">Certified Quality Assurance</h3>
+                        <p class="fl-card__body">
+                            Production aligned to IS / ISO standards with documented testing — from incoming resin to
+                            finished
+                            coil — so specifications are met lot after lot.
+                        </p>
+                    </article>
+                </div>
+                <a class="fl-btn fl-btn--primary fl-btn--lg fl-features__cta" href="#"
+                    data-modal-target="callbackModal">Request a Quote</a>
+            </div>
+        </section>
+
+        <section class="fl-faq fl-section" id="faq">
+            <div class="fl-noise fl-noise--section" aria-hidden="true"></div>
+            <div class="fl-faq__inner">
+                <h2 class="fl-faq__title"><span>Frequently</span> Asked Questions</h2>
+                <div class="fl-faq__list" id="faqList">
+                    <div class="fl-faq-item fl-faq-item--open">
+                        <button type="button" class="fl-faq-item__head" aria-expanded="true">
+                            What PN / SDR grades do you supply for HDPE pipes?
+                            <span class="fl-faq-item__toggle" aria-hidden="true">
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                    <path d="M3 7.5l3-3 3 3" stroke="#4B5563" stroke-width="1.5"
+                                        stroke-linecap="round" />
+                                </svg>
+                            </span>
+                        </button>
+                        <div class="fl-faq-item__body">
+                            We manufacture multiple pressure classes (PN) and standard dimension ratios (SDR) for water,
+                            gas, and
+                            industrial applications — aligned with the Indian Standards and ISO references specified in
+                            your tender
+                            documents (e.g. ISO 4427 family).
+                        </div>
+                    </div>
+                    <div class="fl-faq-item">
+                        <button type="button" class="fl-faq-item__head" aria-expanded="false">
+                            Are butt fusion and electrofusion joints suitable for potable water?
+                            <span class="fl-faq-item__toggle" aria-hidden="true">
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                    <path d="M3 4.5l3 3 3-3" stroke="#4B5563" stroke-width="1.3"
+                                        stroke-linecap="round" />
+                                </svg>
+                            </span>
+                        </button>
+                        <div class="fl-faq-item__body">
+                            Yes. Fusion joints form a continuous HDPE structure without pathways for leakage. Procedures
+                            should follow
+                            manufacturer WPS &amp; qualified welder practices, with OD/SDR-matched fittings and
+                            calibrated equipment.
+                        </div>
+                    </div>
+                    <div class="fl-faq-item">
+                        <button type="button" class="fl-faq-item__head" aria-expanded="false">
+                            How do I store and handle HDPE coils on site?
+                            <span class="fl-faq-item__toggle" aria-hidden="true">
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                    <path d="M3 4.5l3 3 3-3" stroke="#4B5563" stroke-width="1.3"
+                                        stroke-linecap="round" />
+                                </svg>
+                            </span>
+                        </button>
+                        <div class="fl-faq-item__body">
+                            Store out of direct sunlight where possible, avoid dragging over sharp edges, and respect
+                            minimum bend
+                            radius for the diameter and SDR. Use spreader bars or coil cars as recommended for your coil
+                            size and mass.
+                        </div>
+                    </div>
+                    <div class="fl-faq-item">
+                        <button type="button" class="fl-faq-item__head" aria-expanded="false">
+                            What tests are performed to verify quality?
+                            <span class="fl-faq-item__toggle" aria-hidden="true">
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                    <path d="M3 4.5l3 3 3-3" stroke="#4B5563" stroke-width="1.3"
+                                        stroke-linecap="round" />
+                                </svg>
+                            </span>
+                        </button>
+                        <div class="fl-faq-item__body">
+                            Typical production control includes dimensions and ovality, melt flow / density checks on
+                            incoming resin,
+                            and mechanical tests such as hydrostatic strength depending on standard and client ITP.
+                        </div>
+                    </div>
+                    <div class="fl-faq-item">
+                        <button type="button" class="fl-faq-item__head" aria-expanded="false">
+                            Can you support custom lengths, marking, and colors?
+                            <span class="fl-faq-item__toggle" aria-hidden="true">
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                    <path d="M3 4.5l3 3 3-3" stroke="#4B5563" stroke-width="1.3"
+                                        stroke-linecap="round" />
+                                </svg>
+                            </span>
+                        </button>
+                        <div class="fl-faq-item__body">
+                            Many projects require coil lengths, laser or embossed marking, striping, or compound
+                            variants. Share your
+                            specification document and delivery schedule — we will confirm feasibility and lead time.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="fl-catalog fl-catalog--row">
+                    <div class="fl-catalog__text">
+                        <h3 class="fl-catalog__h">Want us to email the entire catalogue?</h3>
+                        <p class="fl-catalog__p">Enter your email and an expert will share the catalogue with you.</p>
+                    </div>
+                    <form class="fl-catalog__form" id="catalogForm">
+                        <div class="fl-input-row fl-input-row--catalog">
+                            <input class="fl-input" type="email" name="email" placeholder="Email Address" required />
+                            <button type="submit" class="fl-btn fl-btn--primary fl-btn--md">Request Catalogue</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="fl-industries fl-section" id="industries">
+            <div class="fl-industries__head">
+                <div style="max-width: 756px;">
+                    <h2 class="fl-industries__title">Versatile Applications Across Industries</h2>
+                    <p class="fl-industries__sub">
+                        HDPE piping systems support municipal, industrial, and energy networks with fusion integrity,
+                        chemical
+                        resistance, and long design life across demanding environments.
+                    </p>
+                </div>
+                <div class="fl-industries__arrows">
+                    <button type="button" class="fl-industries__arrow fl-industries__arrow--prev"
+                        aria-label="Previous industry">
+                        <img src="assets/icons/left-arrow.png" alt="Previous" width="22" height="22" />
+                    </button>
+                    <button type="button" class="fl-industries__arrow fl-industries__arrow--next"
+                        aria-label="Next industry">
+                        <img src="assets/icons/right-arrow.png" alt="Next" width="22" height="22" />
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="fl-industry-card-image">
+            <div class="fl-industry-scroll" id="industryTrack">
+                <article class="fl-industry-card">
+                    <img class="fl-industry-card__img" src="assets/card-image.png" alt="" />
+                    <div class="fl-industry-card__shade"></div>
+                    <div class="fl-industry-card__body">
+                        <h3 class="fl-industry-card__h">Municipal Water &amp; Wastewater</h3>
+                        <p class="fl-industry-card__p">
+                            Distribution mains, rising mains, and treatment plant headers benefit from leak-resistant
+                            fusion joints,
+                            smooth internal surfaces, and predictable surge performance.
+                        </p>
+                    </div>
+                </article>
+                <article class="fl-industry-card">
+                    <img class="fl-industry-card__img" src="assets/card-image.png" alt="" />
+                    <div class="fl-industry-card__shade"></div>
+                    <div class="fl-industry-card__body">
+                        <h3 class="fl-industry-card__h">Gas Distribution &amp; PE Piping</h3>
+                        <p class="fl-industry-card__p">
+                            PE piping for regulated fuel gas networks where material traceability, SDR class selection,
+                            and qualified
+                            fusion procedures are critical to safe operation.
+                        </p>
+                    </div>
+                </article>
+                <article class="fl-industry-card">
+                    <img class="fl-industry-card__img" src="assets/card-image.png" alt="" />
+                    <div class="fl-industry-card__shade"></div>
+                    <div class="fl-industry-card__body">
+                        <h3 class="fl-industry-card__h">Mining &amp; Industrial Process</h3>
+                        <p class="fl-industry-card__p">
+                            Slurry transport, tailings, and chemical process lines demand abrasion-aware design and
+                            robust joints —
+                            HDPE offers a lightweight alternative to lined steel in many circuits.
+                        </p>
+                    </div>
+                </article>
+                <article class="fl-industry-card">
+                    <img class="fl-industry-card__img" src="assets/card-image.png" alt="" />
+                    <div class="fl-industry-card__shade"></div>
+                    <div class="fl-industry-card__body">
+                        <h3 class="fl-industry-card__h">Mining &amp; Industrial Process</h3>
+                        <p class="fl-industry-card__p">
+                            Slurry transport, tailings, and chemical process lines demand abrasion-aware design and
+                            robust joints —
+                            HDPE offers a lightweight alternative to lined steel in many circuits.
+                        </p>
+                    </div>
+                </article>
+                <article class="fl-industry-card">
+                    <img class="fl-industry-card__img" src="assets/card-image.png" alt="" />
+                    <div class="fl-industry-card__shade"></div>
+                    <div class="fl-industry-card__body">
+                        <h3 class="fl-industry-card__h">Mining &amp; Industrial Process</h3>
+                        <p class="fl-industry-card__p">
+                            Slurry transport, tailings, and chemical process lines demand abrasion-aware design and
+                            robust joints —
+                            HDPE offers a lightweight alternative to lined steel in many circuits.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="fl-process fl-section" id="process">
+            <header class="fl-process__header">
+                <h2 class="fl-process__title">Advanced HDPE Pipe Manufacturing Process</h2>
+                <p class="fl-process__sub">
+                    Our state-of-the-art extrusion technology ensures consistent quality, optimal material properties,
+                    and
+                    dimensional accuracy in every pipe we manufacture.
+                </p>
+            </header>
+            <div class="fl-process__panel">
+                <div class="fl-pills" role="tablist" aria-label="Process steps">
+                    <button type="button" class="fl-pill fl-pill--active">Raw Material</button>
+                    <hr
+                        style="transform: rotate(90deg);margin: 12px 1px 0 1px;border: 1px solid var(--color-border-soft);height: 20px;">
+                    <button type="button" class="fl-pill" tabindex="-1">Extrusion</button>
+                    <hr
+                        style="transform: rotate(90deg);margin: 12px 1px 0 1px;border: 1px solid var(--color-border-soft);height: 20px;">
+                    <button type="button" class="fl-pill" tabindex="-1">Cooling</button>
+                    <hr
+                        style="transform: rotate(90deg);margin: 12px 1px 0 1px;border: 1px solid var(--color-border-soft);height: 20px;">
+                    <button type="button" class="fl-pill" tabindex="-1">Sizing</button>
+                    <hr
+                        style="transform: rotate(90deg);margin: 12px 1px 0 1px;border: 1px solid var(--color-border-soft);height: 20px;">
+                    <button type="button" class="fl-pill" tabindex="-1">Quality Control</button>
+                    <hr
+                        style="transform: rotate(90deg);margin: 12px 1px 0 1px;border: 1px solid var(--color-border-soft);height: 20px;">
+                    <button type="button" class="fl-pill" tabindex="-1">Marking</button>
+                    <hr
+                        style="transform: rotate(90deg);margin: 12px 1px 0 1px;border: 1px solid var(--color-border-soft);height: 20px;">
+                    <button type="button" class="fl-pill" tabindex="-1">Cutting</button>
+                    <hr
+                        style="transform: rotate(90deg);margin: 12px 1px 0 1px;border: 1px solid var(--color-border-soft);height: 20px;">
+                    <button type="button" class="fl-pill" tabindex="-1">Packaging</button>
+                </div>
+                <div class="fl-step-indicator">Step 1/8 Raw Material</div>
+                <div class="fl-process__split">
+                    <div class="fl-process__copy">
+                        <h3>High-Grade Raw Material Selection</h3>
+                        <p>
+                            We start with virgin PE100/PE80 compounds from approved sources, verified for density, melt
+                            flow, and
+                            lot traceability before extrusion — the foundation of consistent pressure performance.
+                        </p>
+                        <div class="fl-process__checks">
+
+                        </div>
+                    </div>
+                    <div class="fl-process__visual">
+                        <img src="assets/industry-bg.png" alt="Manufacturing">
+                    </div>
+                </div>
+                <div class="fl-process-nav">
+                    <button class="fl-process-prev">
+                        <img src="assets/icons/left-arrow.png" alt="Previous step" width="10" height="10" />
+                        &nbsp; Previous
+                    </button>
+                    <hr class="fl-process-line">
+                    <button class="fl-process-next">
+                        Next &nbsp;
+                        <img src="assets/icons/right-arrow.png" alt="Next step" width="10" height="10" />
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="fl-quotes fl-section" id="testimonials">
+            <header class="fl-quotes__head fl-quotes__head--center">
+                <h2 class="fl-quotes__title">Trusted Performance. Proven Results</h2>
+                <p class="fl-quotes__sub">
+                    Engineers and contractors rely on Meera HDPE for dependable fusion quality, on-time deliveries, and
+                    documentation that supports site QA and commissioning.
+                </p>
+            </header>
+        </section>
+        <section class="fl-quotes__section">
+            <div class="fl-quotes__track" id="quotesTrack"></div>
+        </section>
+
+        <section class="fl-portfolio fl-section" id="portfolio">
+            <div class="fl-noise fl-noise--section" aria-hidden="true"></div>
+            <div class="fl-portfolio__inner">
+                <header class="fl-portfolio__head fl-text-center">
+                    <h2 class="fl-portfolio__title">Complete Piping Solutions Portfolio</h2>
+                    <p class="fl-portfolio__sub">
+                        Explore complementary products and field services that complete your HDPE system — from fittings
+                        and
+                        fabrications to installation support.
+                    </p>
+                </header>
+                <div class="fl-portfolio__grid">
+                    <article class="fl-portfolio-card">
+                        <div class="fl-portfolio-card__body">
+                            <h3 class="fl-portfolio-card__title">HDPE Fittings &amp; Accessories</h3>
+                            <p class="fl-portfolio-card__text">
+                                Complete range of electrofusion and butt fusion fittings, including elbows, tees,
+                                reducers, and couplers
+                                for seamless pipe connections.
+                            </p>
+                        </div>
+                        <div class="fl-portfolio-card__media">
+                            <img src="assets/portfolio-1-428ecc.png" width="800" height="600" loading="lazy" alt="" />
+                            <a class="fl-btn fl-btn--learn" href="#">Learn More</a>
+                        </div>
+                    </article>
+
+                    <article class="fl-portfolio-card">
+                        <div class="fl-portfolio-card__body">
+                            <h3 class="fl-portfolio-card__title">Professional Installation Services</h3>
+                            <p class="fl-portfolio-card__text">
+                                Expert installation and fusion welding services ensuring optimal system performance,
+                                compliance with
+                                standards, and long-term reliability.
+                            </p>
+                        </div>
+                        <div class="fl-portfolio-card__media">
+                            <img src="assets/portfolio-2-ed613b.png" width="800" height="600" loading="lazy" alt="" />
+                            <a class="fl-btn fl-btn--learn" href="#">Learn More</a>
+                        </div>
+                    </article>
+                    <article class="fl-portfolio-card">
+                        <div class="fl-portfolio-card__body">
+                            <h3 class="fl-portfolio-card__title">PE-RT Heating Pipes</h3>
+                            <p class="fl-portfolio-card__text">
+                                Polyethylene of Raised Temperature resistance pipes ideal for underfloor heating,
+                                radiator connections,
+                                and hot water applications.
+                            </p>
+                        </div>
+                        <div class="fl-portfolio-card__media">
+                            <img src="assets/hero-pipes.jpg" width="1200" height="900" loading="lazy" alt="" />
+                            <a class="fl-btn fl-btn--learn" href="#">Learn More</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="fl-expert-card">
+                    <div class="fl-expert-card__text">
+                        <h3 class="fl-expert-card__title">
+                            Didn't find what <span class="fl-expert-card__accent">you're looking for?</span>
+                        </h3>
+                        <p class="fl-expert-card__p">Talk to our experts for custom solutions and tailored guidance.</p>
+                    </div>
+                    <a class="fl-btn fl-btn--expert fl-btn--md" href="#contact">
+                        <img src="assets/icons/call.png" alt="call" width="18" height="18">
+                        Talk to an Expert
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="fl-resources fl-section" id="resources">
+            <div class="fl-noise fl-noise--section" aria-hidden="true"></div>
+            <div class="fl-resources__inner">
+                <header class="fl-resources__head fl-text-center">
+                    <h2 class="fl-resources__title">Resources &amp; Downloads</h2>
+                    <p class="fl-resources__sub">
+                        Get all the technical documentation and resources you need to make informed decisions about our
+                        HDPE piping
+                        solutions.
+                    </p>
+                </header>
+                <div class="fl-resources__panel">
+                    <div class="fl-resource-row">
+                        <span class="fl-resource-row__label">HDPE Pipe Installation Manual (PDF)</span>
+                        <a class="fl-resource-row__link" href="#">
+                            <span>Download PDF</span>
+                            <img src="assets/icons/download.png" alt="Download" width="18" height="18">
+                        </a>
+                    </div>
+                    <div class="fl-resource-row">
+                        <span class="fl-resource-row__label">Maintenance &amp; Inspection Handbook (PDF)</span>
+                        <a class="fl-resource-row__link" href="#">
+                            <span>Download PDF</span>
+                            <img src="assets/icons/download.png" alt="Download" width="18" height="18">
+                        </a>
+                    </div>
+                    <div class="fl-resource-row">
+                        <span class="fl-resource-row__label">Engineering Specifications Sheet (PDF)</span>
+                        <a class="fl-resource-row__link" href="#">
+                            <span>Download PDF</span>
+                            <img src="assets/icons/download.png" alt="Download" width="18" height="18">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="fl-cta-fold fl-section" id="contact">
+            <div class="fl-noise fl-noise--section" aria-hidden="true"></div>
+            <div class="fl-cta-fold__card">
+                <div class="fl-cta-fold__col fl-cta-fold__col--copy">
+                    <h2 class="fl-cta-fold__title">Ready to Transform Your Piping Infrastructure?</h2>
+                    <p class="fl-cta-fold__lead">
+                        Get a personalized consultation and quote for HDPE pipes, coils, and fittings tailored to your
+                        hydraulic
+                        design, standards, and delivery schedule.
+                    </p>
+                    <div class="fl-cta-fold__rule" aria-hidden="true"></div>
+                    <p class="fl-cta-fold__fine">
+                        For immediate assistance, feel free to give us a direct call at
+                        <strong>+91-XXX-XXX-XXXX.</strong> You can also send us a quick email at
+                        <a class="fl-cta-fold__mail" href="mailto:info@meeraind.com">info@meeraind.com</a>
+                    </p>
+                </div>
+                <div class="fl-cta-fold__form-wrap">
+                    <p class="fl-cta-fold__form-title">Contact Us Today</p>
+                    <form class="fl-cta-fold__form" id="ctaForm">
+                        <input class="fl-input fl-input--dark" type="text" name="name" placeholder="Full Name" />
+                        <input class="fl-input fl-input--dark" type="text" name="company" placeholder="Company Name" />
+                        <input class="fl-input fl-input--dark" type="email" name="email" placeholder="Email Address" />
+                        <div class="fl-phone-row">
+                            <div class="fl-phone-row__cc">
+                                <span>+91</span>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                                    <path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.2"
+                                        stroke-linecap="round" />
+                                </svg>
+                            </div>
+                            <input class="fl-input fl-input--dark fl-input--phone" type="tel" name="phone"
+                                placeholder="7003026616" />
+                        </div>
+                        <button type="submit" class="fl-btn fl-btn--quote-dark fl-btn--md fl-btn--md-wide"
+                            data-modal-target="callbackModal">
+                            Request Custom Quote
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="fl-footer-wrap">
+        <footer class="fl-footer">
+            <div class="fl-footer__card">
+                <div class="fl-noise"></div>
+                <div class="fl-footer__brand">
+                    <img class="fl-footer__logo" src="assets/logo-4ac279.png" width="109" height="45" alt="" />
+                    <p class="fl-footer__tagline">
+                        <span class="fl-footer__tag-a">Premium </span><span class="fl-footer__tag-b">HDPE Pipes &amp;
+                            Fittings Manufacturer</span><span class="fl-footer__tag-a"> in South India</span>
+                    </p>
+                </div>
+            </div>
+            <div class="fl-footer__cols">
+                <div class="fl-footer__col">
+                    <h4>About Us</h4>
+                    <a href="#">About Us</a>
+                </div>
+                <div class="fl-footer__col">
+                    <h4>Categories</h4>
+                    <a href="#">Water &amp; Wastewater</a>
+                    <a href="#">Gas Distribution</a>
+                    <a href="#">Mining &amp; Slurry</a>
+                    <a href="#">Industrial Process</a>
+                    <a href="#">Irrigation &amp; Agriculture</a>
+                    <a href="#">Trenchless &amp; HDD</a>
+                </div>
+                <div class="fl-footer__col">
+                    <h4>Products</h4>
+                    <a href="#">HDPE Pipes (PE80 / PE100)</a>
+                    <a href="#">HDPE Coils</a>
+                    <a href="#">Electrofusion Fittings</a>
+                    <a href="#">Butt Fusion Fittings</a>
+                    <a href="#">Fabrication &amp; Manifolds</a>
+                    <a href="#">Installation Services</a>
+                </div>
+                <div class="fl-footer__col">
+                    <h4>Contact</h4>
+                    <div class="fl-footer__contact-row">
+                        <img src="assets/icons/map.png" alt="Map" width="18" height="18">
+                        <span>2126, Road No. 2, GIDC Sachin, Surat - 394 230 Gujarat, India</span>
+                    </div>
+                    <div class="fl-footer__contact-row">
+                        <img src="assets/icons/phone.png" alt="Phone" width="18" height="18">
+                        <span>+91-XXX-XXX-XXXX</span>
+                    </div>
+                    <div class="fl-footer__contact-row">
+                        <img src="assets/icons/email.png" alt="Email" width="18" height="18">
+                        <span>info@meeraind.com</span>
+                    </div>
+                    <div class="fl-footer__contact-row">
+                        <img src="assets/icons/headphone.png" alt="Support" width="18" height="18">
+                        <span>support@meeraind.com</span>
+                    </div>
+                    <div class="fl-footer__contact-row social-link">
+                        <div class="social-icon">
+                            <img src="assets/icons/linkedin.png" alt="LinkedIn" />
+                            <img src="assets/icons/instagram.png" alt="Instagram" />
+                            <img src="assets/icons/x.png" alt="Twitter" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fl-footer__bottom">
+                <span>Copyright © 2025 Meera Industries Limited | All Rights Reserved</span>
+                <div class="fl-footer__legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Sitemap</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <div class="fl-modal" id="catalogueModal" aria-hidden="true">
+        <div class="fl-modal__overlay" data-modal-close></div>
+        <div class="fl-modal__dialog fl-modal__dialog--structured" role="dialog" aria-modal="true"
+            aria-labelledby="catalogueModalTitle">
+            <div class="fl-modal__header">
+                <h2 class="fl-modal__title" id="catalogueModalTitle">Let us email the entire catalogue to you</h2>
+                <button type="button" class="fl-modal__close" data-modal-close aria-label="Close modal">&times;</button>
+            </div>
+            <form class="fl-modal__form" id="catalogueModalForm">
+                <div class="fl-modal__body">
+                    <label class="fl-modal__field">
+                        <span class="fl-modal__label">Your Email *</span>
+                        <input class="fl-input fl-modal__input" type="email" name="email" required=""
+                            placeholder="example@gmail.com">
+                    </label>
+                    <label class="fl-modal__field">
+                        <span class="fl-modal__label">Your Contact (Optional)</span>
+                        <input class="fl-input fl-modal__input" type="tel" name="contact" placeholder="+91-0000000000">
+                    </label>
+                </div>
+                <div class="fl-modal__footer">
+                    <button type="submit" class="fl-btn fl-btn--primary fl-btn--modal">Download Brouchur</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="fl-modal" id="callbackModal" aria-hidden="true">
+        <div class="fl-modal__overlay" data-modal-close></div>
+        <div class="fl-modal__dialog fl-modal__dialog--structured" role="dialog" aria-modal="true"
+            aria-labelledby="callbackModalTitle">
+            <div class="fl-modal__header">
+                <h2 class="fl-modal__title" id="callbackModalTitle">Request a call back</h2>
+                <button type="button" class="fl-modal__close" data-modal-close aria-label="Close modal">&times;</button>
+            </div>
+            <form class="fl-modal__form" id="callbackModalForm">
+                <div class="fl-modal__body">
+                    <label class="fl-modal__field">
+                        <input class="fl-input fl-modal__input" type="text" name="fullName" placeholder="Full name"
+                            required />
+                    </label>
+                    <label class="fl-modal__field">
+                        <input class="fl-input fl-modal__input" type="text" name="companyName"
+                            placeholder="Company Name" required />
+                    </label>
+                    <label class="fl-modal__field">
+                        <input class="fl-input fl-modal__input" type="email" name="email" placeholder="Email"
+                            required />
+                    </label>
+                    <label class="fl-modal__field">
+                        <div class="fl-phone-row fl-modal__phone">
+                            <div class="fl-phone-row__cc">
+                                <span>+91</span>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                                    <path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.2"
+                                        stroke-linecap="round" />
+                                </svg>
+                            </div>
+                            <input class="fl-input fl-input--phone fl-modal__input" type="tel" name="contact"
+                                placeholder="7003026616" required />
+                        </div>
+                    </label>
+                </div>
+                <div class="fl-modal__footer">
+                    <button type="submit" class="fl-btn fl-btn--primary fl-btn--modal">Submit Form</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
